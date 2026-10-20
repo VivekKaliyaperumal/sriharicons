@@ -968,3 +968,44 @@ a:hover .link, .link:hover { padding-right: 8px; color: var(--navy); }
   .hero-text { width: 44%; }
   .page-hero-text { width: 43%; }
 }
+
+/* =================================================================
+   Home hero (side-by-side layout, >900px; phones/tablets keep the stacked layout)
+   - One text group — label, headline, intro, buttons, divider, phone/WhatsApp — vertically
+     centred against the photo, all left-aligned to the header logo.
+   - Hero height: the first screen minus the top bar, header and the 86px services strip, so
+     the strip shows under the hero (as in the original design); capped 460–760px. If the
+     text needs more room on a short screen, the hero grows and the strip drops below.
+   - Type and gaps scale with the screen height (vh) so the group fills tall screens without
+     leaving the text small, and tightens on short laptop screens.
+   - Headline is sized from screen height but never wider than its column, so each sentence
+     stays on one line: the longest ("Built for Generations.") measures 8.8–9.1em (Fraunces
+     optical sizing widens below ~50px); the column is 44% of the wrap, hence × 0.046.
+   ================================================================= */
+@media (min-width: 901px) {
+  .hero-in { min-height: clamp(460px, calc(100svh - var(--hdr-h) - 42px - 86px), 760px); align-items: center; }
+  .hero-text { width: 44%; padding: clamp(28px, 5vh, 64px) 0; display: block; }
+  .hero .kicker { margin: 0 0 clamp(14px, 2.6vh, 22px); }
+  .hero-h { font-size: clamp(2.4rem, min(8.4vh, calc((min(100vw, var(--wrap)) - 2 * var(--gutter)) * .046)), 4.6rem); line-height: 1.04; margin-bottom: clamp(18px, 3.2vh, 28px); }
+  .hero .lede { font-size: clamp(1.125rem, 2.7vh, 1.375rem); line-height: 1.55; max-width: 44ch; margin: 0; }
+  .hero .actions { margin: clamp(22px, 4.2vh, 36px) 0 0; gap: 14px; }
+  .hero .actions .btn { min-height: clamp(46px, 6.5vh, 54px); }
+  .hero-contact { margin-top: clamp(22px, 4.2vh, 40px); padding-top: clamp(14px, 2.8vh, 24px); gap: 12px 32px; }
+}
+/* Top bar is hidden at ≤1180px, so only the header sits above the hero. */
+@media (min-width: 901px) and (max-width: 1180px) {
+  .hero-in { min-height: clamp(460px, calc(100svh - var(--hdr-h) - 86px), 760px); }
+}
+/* 901–1023px: the narrow column; smaller text so lines stay short and both buttons share a row. */
+@media (min-width: 901px) and (max-width: 1023px) {
+  .hero-h { font-size: clamp(2.2rem, calc((100vw - 2 * var(--gutter)) * .044), 2.7rem); } /* ~9.2em per line here */
+  .hero .lede { font-size: var(--fs-base); }
+  .hero .actions { gap: 10px; }
+  .hero .actions .btn { min-height: 42px; padding: 10px 16px; font-size: 0.875rem; }
+  .hero-contact { gap: 8px 20px; }
+}
+/* 901–1060px: the label ("Traditional mud house construction") just overflows the column; shorter rule and tracking. */
+@media (min-width: 901px) and (max-width: 1060px) {
+  .hero .kicker { letter-spacing: .14em; gap: 10px; }
+  .hero .kicker::before { width: 24px; }
+}
