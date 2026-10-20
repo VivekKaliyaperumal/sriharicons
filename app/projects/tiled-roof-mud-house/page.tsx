@@ -93,7 +93,7 @@ export default function ProjectsTiledRoofMudHousePage() {
         <div className="chev ">
           <span className="chev-navy" aria-hidden="true"></span>
           <span className="chev-gold" aria-hidden="true"></span>
-          <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
+          <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
         </div>
       </section>
       <section className="sec">

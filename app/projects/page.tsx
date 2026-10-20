@@ -90,7 +90,7 @@ export default function ProjectsPage() {
               <ul className="projects" id="proj-grid">
                 <FilterItem cat="mud">
                   <Link className="proj-card" href="/projects/veranda-mud-house/">
-                    <Plate photo="39917502" tone="earth" alt="Traditional house with a red tiled roof and timber pillars" tag="Concept design" />
+                    <Plate photo="35463175" tone="earth" alt="Traditional painted mud house with a columned veranda" tag="Concept design" />
                     <p className="g-cat">Traditional mud houses</p>
                     <h2>Mud house with a shaded veranda</h2>
                     <p>A single-storey family home concept with earth walls, a timber-post veranda across the front and a raised sitting platform.</p>
@@ -99,7 +99,7 @@ export default function ProjectsPage() {
                 </FilterItem>
                 <FilterItem cat="tiled">
                   <Link className="proj-card" href="/projects/tiled-roof-mud-house/">
-                    <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Concept design" />
+                    <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Concept design" />
                     <p className="g-cat">Tiled-roof houses</p>
                     <h2>Mud house with a sloping tiled roof</h2>
                     <p>A concept that pairs earth walls with a steep clay-tile roof and deep eaves to shed heavy rain.</p>
@@ -108,7 +108,7 @@ export default function ProjectsPage() {
                 </FilterItem>
                 <FilterItem cat="courtyard">
                   <Link className="proj-card" href="/projects/courtyard-mud-home/">
-                    <Plate photo="36394965" tone="timber" alt="Traditional house with a red tiled roof around an open courtyard" tag="Concept design" />
+                    <Plate photo="38835879" tone="timber" alt="Mud-brick house with a shaded forecourt among trees" tag="Concept design" />
                     <p className="g-cat">Courtyard homes</p>
                     <h2>Courtyard mud home</h2>
                     <p>Rooms arranged around an open-to-sky courtyard that brings light and air into the centre of the house.</p>
@@ -117,7 +117,7 @@ export default function ProjectsPage() {
                 </FilterItem>
                 <FilterItem cat="mud">
                   <Link className="proj-card" href="/projects/contemporary-earth-home/">
-                    <Plate photo="32983899" tone="stone" alt="Contemporary building with earth-toned walls and greenery" tag="Concept design" />
+                    <Plate photo="27519595" tone="stone" alt="Adobe house with a minimalist modern roof" tag="Concept design" />
                     <p className="g-cat">Traditional mud houses</p>
                     <h2>Contemporary home with earth walls</h2>
                     <p>A modern plan with large windows and clean lines, using earth walls for their colour and texture.</p>

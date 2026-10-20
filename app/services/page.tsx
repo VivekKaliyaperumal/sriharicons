@@ -88,7 +88,7 @@ export default function ServicesPage() {
       <section className="sec">
         <div className="wrap">
           <Link className="svc-feature svc-feature-wide" href="/services/mud-house-construction/">
-            <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Illustrative" className="cut" />
+            <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Illustrative" className="cut" />
             {' '}
             <div className="svc-feature-text">
               <p className="kicker-dark">Our specialty</p>

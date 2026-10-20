@@ -87,10 +87,10 @@ export default function GalleryPage() {
             <LightboxScope
               items={[
                 {
-                  "photo": "39917502",
+                  "photo": "35463175",
                   "tone": "earth",
-                  "alt": "Traditional house with a red tiled roof and timber pillars",
-                  "caption": "Traditional house with a red tiled roof and timber pillars",
+                  "alt": "Traditional painted mud house with a columned veranda",
+                  "caption": "Traditional painted mud house with a columned veranda",
                   "tag": "Illustrative",
                   "cat": "mud"
                 },
@@ -103,18 +103,18 @@ export default function GalleryPage() {
                   "cat": "mud"
                 },
                 {
-                  "photo": "36394965",
+                  "photo": "38835879",
                   "tone": "timber",
-                  "alt": "Traditional house with a red tiled roof around an open courtyard",
-                  "caption": "Traditional house with a red tiled roof around an open courtyard",
+                  "alt": "Mud-brick house with a shaded forecourt among trees",
+                  "caption": "Mud-brick house with a shaded forecourt among trees",
                   "tag": "Illustrative",
                   "cat": "mud"
                 },
                 {
-                  "photo": "32983899",
+                  "photo": "27519595",
                   "tone": "stone",
-                  "alt": "Contemporary building with earth-toned walls and greenery",
-                  "caption": "Contemporary building with earth-toned walls and greenery",
+                  "alt": "Adobe house with a minimalist modern roof",
+                  "caption": "Adobe house with a minimalist modern roof",
                   "tag": "Illustrative",
                   "cat": "mud"
                 },
@@ -127,10 +127,10 @@ export default function GalleryPage() {
                   "cat": "mud"
                 },
                 {
-                  "photo": "14776471",
+                  "photo": "35424846",
                   "tone": "earth",
-                  "alt": "Close-up of a weathered earth wall",
-                  "caption": "Close-up of a weathered earth wall",
+                  "alt": "Rammed-earth wall with a potted monstera plant",
+                  "caption": "Rammed-earth wall with a potted monstera plant",
                   "tag": "Illustrative",
                   "cat": "materials"
                 },
@@ -167,10 +167,10 @@ export default function GalleryPage() {
                   "cat": "materials"
                 },
                 {
-                  "photo": "36470491",
+                  "photo": "31269078",
                   "tone": "clay",
-                  "alt": "Traditional Kerala-style house with a sloping tiled roof among palm trees",
-                  "caption": "Traditional Kerala-style house with a sloping tiled roof among palm trees",
+                  "alt": "Earthen house with a tiled roof among trees",
+                  "caption": "Earthen house with a tiled roof among trees",
                   "tag": "Illustrative",
                   "cat": "roofs"
                 },
@@ -370,7 +370,7 @@ export default function GalleryPage() {
             >
               <ul className="gallery" id="gal">
                 <FilterItem cat="mud">
-                  <Plate photo="39917502" tone="earth" alt="Traditional house with a red tiled roof and timber pillars" tag="Illustrative" caption="Traditional house with a red tiled roof and timber pillars" lightboxIndex={0} />
+                  <Plate photo="35463175" tone="earth" alt="Traditional painted mud house with a columned veranda" tag="Illustrative" caption="Traditional painted mud house with a columned veranda" lightboxIndex={0} />
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="mud">
@@ -378,11 +378,11 @@ export default function GalleryPage() {
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="mud">
-                  <Plate photo="36394965" tone="timber" alt="Traditional house with a red tiled roof around an open courtyard" tag="Illustrative" caption="Traditional house with a red tiled roof around an open courtyard" lightboxIndex={2} />
+                  <Plate photo="38835879" tone="timber" alt="Mud-brick house with a shaded forecourt among trees" tag="Illustrative" caption="Mud-brick house with a shaded forecourt among trees" lightboxIndex={2} />
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="mud">
-                  <Plate photo="32983899" tone="stone" alt="Contemporary building with earth-toned walls and greenery" tag="Illustrative" caption="Contemporary building with earth-toned walls and greenery" lightboxIndex={3} />
+                  <Plate photo="27519595" tone="stone" alt="Adobe house with a minimalist modern roof" tag="Illustrative" caption="Adobe house with a minimalist modern roof" lightboxIndex={3} />
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="mud">
@@ -390,7 +390,7 @@ export default function GalleryPage() {
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="materials">
-                  <Plate photo="14776471" tone="earth" alt="Close-up of a weathered earth wall" tag="Illustrative" caption="Close-up of a weathered earth wall" lightboxIndex={5} />
+                  <Plate photo="35424846" tone="earth" alt="Rammed-earth wall with a potted monstera plant" tag="Illustrative" caption="Rammed-earth wall with a potted monstera plant" lightboxIndex={5} />
                   <p className="g-cat">Natural building materials</p>
                 </FilterItem>
                 <FilterItem cat="materials">
@@ -410,7 +410,7 @@ export default function GalleryPage() {
                   <p className="g-cat">Natural building materials</p>
                 </FilterItem>
                 <FilterItem cat="roofs">
-                  <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Illustrative" caption="Traditional Kerala-style house with a sloping tiled roof among palm trees" lightboxIndex={10} />
+                  <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Illustrative" caption="Earthen house with a tiled roof among trees" lightboxIndex={10} />
                   <p className="g-cat">Roofs and details</p>
                 </FilterItem>
                 <FilterItem cat="roofs">

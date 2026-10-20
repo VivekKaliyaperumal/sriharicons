@@ -93,7 +93,7 @@ export default function ProjectsCourtyardMudHomePage() {
         <div className="chev ">
           <span className="chev-navy" aria-hidden="true"></span>
           <span className="chev-gold" aria-hidden="true"></span>
-          <Plate photo="36394965" tone="timber" alt="Traditional house with a red tiled roof around an open courtyard" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
+          <Plate photo="38835879" tone="timber" alt="Mud-brick house with a shaded forecourt among trees" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
         </div>
       </section>
       <section className="sec">

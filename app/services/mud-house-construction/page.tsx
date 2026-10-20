@@ -189,7 +189,7 @@ export default function ServicesMudHouseConstructionPage() {
         <div className="chev ">
           <span className="chev-navy" aria-hidden="true"></span>
           <span className="chev-gold" aria-hidden="true"></span>
-          <Plate photo="8259913" tone="earth" alt="Weathered mud-walled house with a clay-tile roof and garden plants" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
+          <Plate photo="31959779" tone="earth" alt="Traditional home with earth-and-brick walls and a tiled roof in a garden" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
         </div>
       </section>
       <SubNav items={[{"id":"approach","label":"Approach"},{"id":"styles","label":"Styles"},{"id":"considerations","label":"Considerations"},{"id":"materials","label":"Materials"},{"id":"comfort","label":"Modern comfort"},{"id":"mud-gallery","label":"Gallery"},{"id":"mud-faq","label":"FAQ"},{"id":"consult","label":"Consultation"}]} />
@@ -374,7 +374,7 @@ export default function ServicesMudHouseConstructionPage() {
           </div>
           <ul className="materials">
             <li>
-              <Plate photo="14776471" tone="earth" alt="Close-up of a weathered earth wall" tag="Illustrative" caption="Earth walls" />
+              <Plate photo="35424846" tone="earth" alt="Rammed-earth wall with a potted monstera plant" tag="Illustrative" caption="Earth walls" />
             </li>
             <li>
               <Plate photo="15021907" tone="clay" alt="Close-up of a textured beige plaster wall" tag="Illustrative" caption="Clay finishes" />
@@ -445,10 +445,10 @@ export default function ServicesMudHouseConstructionPage() {
             <LightboxScope
               items={[
                 {
-                  "photo": "39917502",
+                  "photo": "35463175",
                   "tone": "earth",
-                  "alt": "Traditional house with a red tiled roof and timber pillars",
-                  "caption": "Traditional house with a red tiled roof and timber pillars",
+                  "alt": "Traditional painted mud house with a columned veranda",
+                  "caption": "Traditional painted mud house with a columned veranda",
                   "tag": "Illustrative",
                   "cat": "mud"
                 },
@@ -469,10 +469,10 @@ export default function ServicesMudHouseConstructionPage() {
                   "cat": "mud"
                 },
                 {
-                  "photo": "36470491",
+                  "photo": "31269078",
                   "tone": "clay",
-                  "alt": "Traditional Kerala-style house with a sloping tiled roof among palm trees",
-                  "caption": "Traditional Kerala-style house with a sloping tiled roof among palm trees",
+                  "alt": "Earthen house with a tiled roof among trees",
+                  "caption": "Earthen house with a tiled roof among trees",
                   "tag": "Illustrative",
                   "cat": "tiled"
                 },
@@ -493,10 +493,10 @@ export default function ServicesMudHouseConstructionPage() {
                   "cat": "tiled"
                 },
                 {
-                  "photo": "36394965",
+                  "photo": "38835879",
                   "tone": "timber",
-                  "alt": "Traditional house with a red tiled roof around an open courtyard",
-                  "caption": "Traditional house with a red tiled roof around an open courtyard",
+                  "alt": "Mud-brick house with a shaded forecourt among trees",
+                  "caption": "Mud-brick house with a shaded forecourt among trees",
                   "tag": "Illustrative",
                   "cat": "courtyard"
                 },
@@ -517,10 +517,10 @@ export default function ServicesMudHouseConstructionPage() {
                   "cat": "courtyard"
                 },
                 {
-                  "photo": "14776471",
+                  "photo": "35424846",
                   "tone": "earth",
-                  "alt": "Close-up of a weathered earth wall",
-                  "caption": "Close-up of a weathered earth wall",
+                  "alt": "Rammed-earth wall with a potted monstera plant",
+                  "caption": "Rammed-earth wall with a potted monstera plant",
                   "tag": "Illustrative",
                   "cat": "materials"
                 },
@@ -568,7 +568,7 @@ export default function ServicesMudHouseConstructionPage() {
             >
               <ul className="gallery" id="mud-gal">
                 <FilterItem cat="mud">
-                  <Plate photo="39917502" tone="earth" alt="Traditional house with a red tiled roof and timber pillars" tag="Illustrative" caption="Traditional house with a red tiled roof and timber pillars" lightboxIndex={0} />
+                  <Plate photo="35463175" tone="earth" alt="Traditional painted mud house with a columned veranda" tag="Illustrative" caption="Traditional painted mud house with a columned veranda" lightboxIndex={0} />
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="mud">
@@ -580,7 +580,7 @@ export default function ServicesMudHouseConstructionPage() {
                   <p className="g-cat">Traditional mud houses</p>
                 </FilterItem>
                 <FilterItem cat="tiled">
-                  <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Illustrative" caption="Traditional Kerala-style house with a sloping tiled roof among palm trees" lightboxIndex={3} />
+                  <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Illustrative" caption="Earthen house with a tiled roof among trees" lightboxIndex={3} />
                   <p className="g-cat">Tiled roofs</p>
                 </FilterItem>
                 <FilterItem cat="tiled">
@@ -592,7 +592,7 @@ export default function ServicesMudHouseConstructionPage() {
                   <p className="g-cat">Tiled roofs</p>
                 </FilterItem>
                 <FilterItem cat="courtyard">
-                  <Plate photo="36394965" tone="timber" alt="Traditional house with a red tiled roof around an open courtyard" tag="Illustrative" caption="Traditional house with a red tiled roof around an open courtyard" lightboxIndex={6} />
+                  <Plate photo="38835879" tone="timber" alt="Mud-brick house with a shaded forecourt among trees" tag="Illustrative" caption="Mud-brick house with a shaded forecourt among trees" lightboxIndex={6} />
                   <p className="g-cat">Courtyard homes</p>
                 </FilterItem>
                 <FilterItem cat="courtyard">
@@ -604,7 +604,7 @@ export default function ServicesMudHouseConstructionPage() {
                   <p className="g-cat">Courtyard homes</p>
                 </FilterItem>
                 <FilterItem cat="materials">
-                  <Plate photo="14776471" tone="earth" alt="Close-up of a weathered earth wall" tag="Illustrative" caption="Close-up of a weathered earth wall" lightboxIndex={9} />
+                  <Plate photo="35424846" tone="earth" alt="Rammed-earth wall with a potted monstera plant" tag="Illustrative" caption="Rammed-earth wall with a potted monstera plant" lightboxIndex={9} />
                   <p className="g-cat">Natural materials</p>
                 </FilterItem>
                 <FilterItem cat="materials">

@@ -211,9 +211,9 @@ export default function ServicesSoilTestingPage() {
                 "tag": "Illustrative"
               },
               {
-                "photo": "14776471",
+                "photo": "35424846",
                 "tone": "earth",
-                "alt": "Close-up of a weathered earth wall",
+                "alt": "Rammed-earth wall with a potted monstera plant",
                 "caption": "Earth block from site soil",
                 "tag": "Illustrative"
               }
@@ -227,7 +227,7 @@ export default function ServicesSoilTestingPage() {
                 <Plate photo="12413454" tone="earth" alt="Gloved hand holding a soil sample in a test tube" tag="Illustrative" caption="Sample from a trial pit" lightboxIndex={1} lightboxCaption="Sample from a trial pit" />
               </li>
               <li>
-                <Plate photo="14776471" tone="earth" alt="Close-up of a weathered earth wall" tag="Illustrative" caption="Earth block from site soil" lightboxIndex={2} lightboxCaption="Earth block from site soil" />
+                <Plate photo="35424846" tone="earth" alt="Rammed-earth wall with a potted monstera plant" tag="Illustrative" caption="Earth block from site soil" lightboxIndex={2} lightboxCaption="Earth block from site soil" />
               </li>
             </ul>
           </LightboxScope>

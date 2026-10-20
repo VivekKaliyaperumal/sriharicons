@@ -93,7 +93,7 @@ export default function ProjectsVerandaMudHousePage() {
         <div className="chev ">
           <span className="chev-navy" aria-hidden="true"></span>
           <span className="chev-gold" aria-hidden="true"></span>
-          <Plate photo="39917502" tone="earth" alt="Traditional house with a red tiled roof and timber pillars" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
+          <Plate photo="35463175" tone="earth" alt="Traditional painted mud house with a columned veranda" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
         </div>
       </section>
       <section className="sec">

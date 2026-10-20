@@ -93,7 +93,7 @@ export default function ProjectsContemporaryEarthHomePage() {
         <div className="chev ">
           <span className="chev-navy" aria-hidden="true"></span>
           <span className="chev-gold" aria-hidden="true"></span>
-          <Plate photo="32983899" tone="stone" alt="Contemporary building with earth-toned walls and greenery" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
+          <Plate photo="27519595" tone="stone" alt="Adobe house with a minimalist modern roof" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
         </div>
       </section>
       <section className="sec">

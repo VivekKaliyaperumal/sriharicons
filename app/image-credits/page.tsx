@@ -96,17 +96,28 @@ export default function ImageCreditsPage() {
             <tbody>
               <tr>
                 <td>
-                  <Image src={pexelsUrl('39917502')} alt="" width={80} height={60} sizes="80px" />
+                  <Image src="/images/hero-earth-home.webp" alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  Traditional house with a red tiled roof and timber pillars
+                  Modern rammed-earth home with a covered veranda and garden at dusk
                   <span className="credit-key">hero</span>
                 </td>
+                <td>Shri Hari Builders</td>
+                <td>Supplied image (not from Pexels)</td>
+              </tr>
+              <tr>
                 <td>
-                  <a href="https://www.pexels.com/@davisonjoseph/" target="_blank" rel="noopener">Davison Joseph</a>
+                  <Image src={pexelsUrl('35463175')} alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/photo/traditional-kerala-house-with-red-tiled-roof-39917502/" target="_blank" rel="noopener">Pexels photo 39917502</a>
+                  Traditional painted mud house with a columned veranda
+                  <span className="credit-key">mudHouse</span>
+                </td>
+                <td>
+                  <a href="https://www.pexels.com/@photos-1317349066/" target="_blank" rel="noopener">photos</a>
+                </td>
+                <td>
+                  <a href="https://www.pexels.com/photo/traditional-rural-painted-mud-house-with-columns-35463175/" target="_blank" rel="noopener">Pexels photo 35463175</a>
                 </td>
               </tr>
               <tr>
@@ -141,17 +152,17 @@ export default function ImageCreditsPage() {
               </tr>
               <tr>
                 <td>
-                  <Image src={pexelsUrl('8259913')} alt="" width={80} height={60} sizes="80px" />
+                  <Image src={pexelsUrl('31959779')} alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  Weathered mud-walled house with a clay-tile roof and garden plants
+                  Traditional home with earth-and-brick walls and a tiled roof in a garden
                   <span className="credit-key">mudHero</span>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/@quang-nguyen-vinh-222549/" target="_blank" rel="noopener">Quang Nguyen Vinh</a>
+                  <a href="https://www.pexels.com/@fahadputhawala/" target="_blank" rel="noopener">Fahad Puthawala</a>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/photo/garden-plants-beside-a-house-8259913/" target="_blank" rel="noopener">Pexels photo 8259913</a>
+                  <a href="https://www.pexels.com/photo/charming-traditional-home-in-ahmedabad-31959779/" target="_blank" rel="noopener">Pexels photo 31959779</a>
                 </td>
               </tr>
               <tr>
@@ -201,47 +212,47 @@ export default function ImageCreditsPage() {
               </tr>
               <tr>
                 <td>
-                  <Image src={pexelsUrl('36470491')} alt="" width={80} height={60} sizes="80px" />
+                  <Image src={pexelsUrl('31269078')} alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  Traditional Kerala-style house with a sloping tiled roof among palm trees
+                  Earthen house with a tiled roof among trees
                   <span className="credit-key">typeTiled</span>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/@manishjangid/" target="_blank" rel="noopener">Manish Jangid</a>
+                  <a href="https://www.pexels.com/@elsaboath/" target="_blank" rel="noopener">Oswald Yaw El-Saboath</a>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/photo/traditional-kerala-house-with-lush-greenery-36470491/" target="_blank" rel="noopener">Pexels photo 36470491</a>
+                  <a href="https://www.pexels.com/photo/rustic-earthen-house-surrounded-by-nature-31269078/" target="_blank" rel="noopener">Pexels photo 31269078</a>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <Image src={pexelsUrl('36394965')} alt="" width={80} height={60} sizes="80px" />
+                  <Image src={pexelsUrl('38835879')} alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  Traditional house with a red tiled roof around an open courtyard
+                  Mud-brick house with a shaded forecourt among trees
                   <span className="credit-key">typeCourtyard</span>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/@freddy-1663967361/" target="_blank" rel="noopener">Freddy</a>
+                  <a href="https://www.pexels.com/@gang-liang-2159128498/" target="_blank" rel="noopener">gang liang</a>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/photo/colonial-style-brick-house-with-red-roof-36394965/" target="_blank" rel="noopener">Pexels photo 36394965</a>
+                  <a href="https://www.pexels.com/photo/traditional-mud-brick-house-in-lush-greenery-38835879/" target="_blank" rel="noopener">Pexels photo 38835879</a>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <Image src={pexelsUrl('32983899')} alt="" width={80} height={60} sizes="80px" />
+                  <Image src={pexelsUrl('27519595')} alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  Contemporary building with earth-toned walls and greenery
+                  Adobe house with a minimalist modern roof
                   <span className="credit-key">typeContemporary</span>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/@halimatu-sa-diah-koruch-774933187/" target="_blank" rel="noopener">Halimatu Sa'diah - Koruch</a>
+                  <a href="https://www.pexels.com/@antoine-maurin-264851287/" target="_blank" rel="noopener">Antoine Maurin</a>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/photo/modern-eco-friendly-building-in-chiang-mai-32983899/" target="_blank" rel="noopener">Pexels photo 32983899</a>
+                  <a href="https://www.pexels.com/photo/a-building-with-a-roof-and-a-blue-sky-27519595/" target="_blank" rel="noopener">Pexels photo 27519595</a>
                 </td>
               </tr>
               <tr>
@@ -321,17 +332,17 @@ export default function ImageCreditsPage() {
               </tr>
               <tr>
                 <td>
-                  <Image src={pexelsUrl('14776471')} alt="" width={80} height={60} sizes="80px" />
+                  <Image src={pexelsUrl('35424846')} alt="" width={80} height={60} sizes="80px" />
                 </td>
                 <td>
-                  Close-up of a weathered earth wall
+                  Rammed-earth wall with a potted monstera plant
                   <span className="credit-key">matEarth</span>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/@quang-nguyen-vinh-222549/" target="_blank" rel="noopener">Quang Nguyen Vinh</a>
+                  <a href="https://www.pexels.com/@er-mk-kiran-2157501854/" target="_blank" rel="noopener">Er. Mk Kiran.</a>
                 </td>
                 <td>
-                  <a href="https://www.pexels.com/photo/facade-of-cottage-14776471/" target="_blank" rel="noopener">Pexels photo 14776471</a>
+                  <a href="https://www.pexels.com/photo/monstera-plant-against-textured-earthy-wall-35424846/" target="_blank" rel="noopener">Pexels photo 35424846</a>
                 </td>
               </tr>
               <tr>

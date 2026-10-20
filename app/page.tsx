@@ -92,7 +92,7 @@ export default function HomePage() {
         <div className="chev chev-hero">
           <span className="chev-navy" aria-hidden="true"></span>
           <span className="chev-gold" aria-hidden="true"></span>
-          <Plate photo="39917502" tone="earth" alt="Traditional house with a red tiled roof and timber pillars" tag="Illustrative" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
+          <Plate src="/images/hero-earth-home.webp" tone="earth" alt="Modern rammed-earth home with a covered veranda and garden at dusk" className="chev-photo" sizes="(max-width: 900px) 100vw, 55vw" priority />
         </div>
       </section>
       <section className="strip" aria-label="What we do">
@@ -205,7 +205,7 @@ export default function HomePage() {
             </li>
             <li>
               <Link className="type-card" href="/services/mud-house-construction/#styles">
-                <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Example" className="cut" />
+                <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Example" className="cut" />
                 <h3>Tiled roofs and verandas</h3>
                 <p>Sloping clay-tile roofs with deep eaves and a shaded front veranda for everyday living.</p>
                 <span className="link">Mud house construction</span>
@@ -213,7 +213,7 @@ export default function HomePage() {
             </li>
             <li>
               <Link className="type-card" href="/services/mud-house-construction/#styles">
-                <Plate photo="36394965" tone="timber" alt="Traditional house with a red tiled roof around an open courtyard" tag="Example" className="cut" />
+                <Plate photo="38835879" tone="timber" alt="Mud-brick house with a shaded forecourt among trees" tag="Example" className="cut" />
                 <h3>Courtyard mud homes</h3>
                 <p>Rooms arranged around an open-to-sky courtyard for light, air and privacy.</p>
                 <span className="link">Mud house construction</span>
@@ -221,7 +221,7 @@ export default function HomePage() {
             </li>
             <li>
               <Link className="type-card" href="/services/mud-house-construction/#styles">
-                <Plate photo="32983899" tone="stone" alt="Contemporary building with earth-toned walls and greenery" tag="Example" className="cut" />
+                <Plate photo="27519595" tone="stone" alt="Adobe house with a minimalist modern roof" tag="Example" className="cut" />
                 <h3>Contemporary earth homes</h3>
                 <p>Modern plans and larger openings that keep the warmth of earth walls.</p>
                 <span className="link">Mud house construction</span>
@@ -238,7 +238,7 @@ export default function HomePage() {
           </div>
           <div className="svc-board">
             <Link className="svc-feature" href="/services/mud-house-construction/">
-              <Plate photo="8259913" tone="earth" alt="Weathered mud-walled house with a clay-tile roof and garden plants" tag="Illustrative" className="cut" />
+              <Plate photo="31959779" tone="earth" alt="Traditional home with earth-and-brick walls and a tiled roof in a garden" tag="Illustrative" className="cut" />
               {' '}
               <div className="svc-feature-text">
                 <p className="kicker-dark">Our specialty</p>
@@ -327,19 +327,19 @@ export default function HomePage() {
           <ul className="mosaic">
             <li>
               <Link href="/projects/veranda-mud-house/">
-                <Plate photo="39917502" tone="earth" alt="Traditional house with a red tiled roof and timber pillars" tag="Concept design" />
+                <Plate photo="35463175" tone="earth" alt="Traditional painted mud house with a columned veranda" tag="Concept design" />
                 <h3>Mud house with a shaded veranda</h3>
               </Link>
             </li>
             <li>
               <Link href="/projects/tiled-roof-mud-house/">
-                <Plate photo="36470491" tone="clay" alt="Traditional Kerala-style house with a sloping tiled roof among palm trees" tag="Concept design" />
+                <Plate photo="31269078" tone="clay" alt="Earthen house with a tiled roof among trees" tag="Concept design" />
                 <h3>Mud house with a sloping tiled roof</h3>
               </Link>
             </li>
             <li>
               <Link href="/projects/courtyard-mud-home/">
-                <Plate photo="36394965" tone="timber" alt="Traditional house with a red tiled roof around an open courtyard" tag="Concept design" />
+                <Plate photo="38835879" tone="timber" alt="Mud-brick house with a shaded forecourt among trees" tag="Concept design" />
                 <h3>Courtyard mud home</h3>
               </Link>
             </li>
