@@ -3,7 +3,9 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import Icon, { GoldRule } from '@/components/Icon';
 import JsonLd from '@/components/JsonLd';
+import FaqSection from '@/components/FaqSection';
 import Plate from '@/components/Plate';
+import { FAQ_GROUPS } from '@/lib/faq';
 
 export const metadata: Metadata = {
   "title": "Shri Hari Builders | Traditional Mud House Construction in Tamil Nadu",
@@ -43,6 +45,15 @@ export default function HomePage() {
           }
         },
         "description": "Shri Hari Builders plans and builds traditional mud houses across Tamil Nadu, and supports residential construction, building approval assistance, architectural and structural drawings, soil testing and interior woodwork."
+      }} />
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: FAQ_GROUPS.flatMap((g) => g.items).map((it) => ({
+          '@type': 'Question',
+          name: it.q,
+          acceptedAnswer: { '@type': 'Answer', text: it.a },
+        })),
       }} />
       <section className="hero">
         <div className="wrap hero-in">
@@ -452,6 +463,7 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
+      <FaqSection />
       <section className="cta-band">
         <Plate photo="39730068" tone="timber" alt="Traditional house with a tiled roof at the end of a garden path" className="cta-bg" />
         <div className="wrap cta-inner">

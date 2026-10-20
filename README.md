@@ -10,7 +10,7 @@ section heights and a few responsive defects were corrected (see below).
 npm install        # install dependencies
 npm run dev        # development server on http://localhost:3000
 npm run typecheck  # TypeScript check (tsc --noEmit)
-npm run build      # production build (all 28 routes are prerendered as static pages)
+npm run build      # production build (all routes are prerendered as static pages)
 npm start          # serve the production build
 ```
 
@@ -20,8 +20,8 @@ Requires Node.js 20.9+ (tested on Node 24.14, npm 11.9).
 
 | Path | What it holds |
 | --- | --- |
-| `app/layout.tsx` | Fonts (next/font: Playfair Display, Manrope), skip link, top bar, header, footer, back-to-top, lightbox host |
-| `app/globals.css` | The original `site.css`, unchanged except fonts and the responsive fixes marked `Next.js conversion` |
+| `app/layout.tsx` | Fonts (next/font: Playfair Display headings, Fraunces hero headlines, Manrope text), skip link, top bar, header, footer, back-to-top, scroll animations, lightbox host |
+| `app/globals.css` | The original `site.css` plus marked blocks at the end: responsive fixes, home FAQ, hero typeface and motion |
 | `app/**/page.tsx` | One file per original page, same URLs with trailing slash (`/services/pooja-units/`) |
 | `app/not-found.tsx` | The original `404.html` |
 | `components/Header.tsx` | Sticky header: scroll state, Services dropdown (hover, click, keyboard), mobile menu with focus trap |
@@ -31,6 +31,8 @@ Requires Node.js 20.9+ (tested on Node 24.14, npm 11.9).
 | `components/Filters.tsx` | Filter chips for the gallery, projects and mud-house gallery |
 | `components/SubNav.tsx` | Sticky in-page nav with active-section highlight (mud house page) |
 | `components/InquiryForm.tsx` | Validated enquiry forms (contact + mud house consultation) |
+| `components/FaqSection.tsx`, `lib/faq.ts` | FAQ section on the home page (`/#faq`); the old `/faq/` URL redirects there |
+| `components/Motion.tsx` | Fade-up reveal for content blocks as they scroll into view |
 | `components/Icon.tsx` | The site's line icons |
 | `lib/site.ts` | Phone numbers, email, navigation, `FORM_ENDPOINT` |
 | `lib/imageLoader.ts` | `next/image` loader that asks Pexels for the right width (same widths as the original srcset) |

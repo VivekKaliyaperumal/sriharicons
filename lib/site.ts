@@ -63,7 +63,6 @@ export const NAV_BEFORE: NavLink[] = [
 export const NAV_AFTER: NavLink[] = [
   { href: '/projects/', label: 'Projects' },
   { href: '/gallery/', label: 'Gallery' },
-  { href: '/faq/', label: 'FAQ' },
   { href: '/contact/', label: 'Contact' },
 ];
 
@@ -73,6 +72,6 @@ export const FOOTER_EXPLORE: NavLink[] = [
   { href: '/services/', label: 'Services' },
   { href: '/projects/', label: 'Projects' },
   { href: '/gallery/', label: 'Gallery' },
-  { href: '/faq/', label: 'FAQ' },
+  { href: '/#faq', label: 'FAQ' },
   { href: '/contact/', label: 'Contact' },
 ];

@@ -3,6 +3,10 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   // Matches the original folder-per-page URLs (/about/, /services/pooja-units/) and the sitemap.
   trailingSlash: true,
+  // The FAQ moved from its own page to a section on the home page.
+  async redirects() {
+    return [{ source: '/faq/', destination: '/#faq', permanent: true }];
+  },
   images: {
     loader: 'custom',
     loaderFile: './lib/imageLoader.ts',

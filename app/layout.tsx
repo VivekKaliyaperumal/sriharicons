@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from 'next';
-import { Manrope, Playfair_Display } from 'next/font/google';
+import { Fraunces, Manrope, Playfair_Display } from 'next/font/google';
 import type { ReactNode } from 'react';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { LightboxProvider } from '@/components/Lightbox';
+import Motion from '@/components/Motion';
 import PageEffects from '@/components/PageEffects';
 import TopBar from '@/components/TopBar';
 import { SITE_URL } from '@/lib/site';
@@ -15,6 +16,15 @@ const playfair = Playfair_Display({
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-playfair',
+});
+
+// Hero headlines (home and inner-page heroes).
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  axes: ['opsz'],
+  display: 'swap',
+  variable: '--font-fraunces',
 });
 
 const manrope = Manrope({
@@ -36,7 +46,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en-IN" className={`${playfair.variable} ${manrope.variable}`} data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="en-IN" className={`${playfair.variable} ${fraunces.variable} ${manrope.variable}`} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         {/* Same flag the original set: photo unveil styles only apply when JS runs. */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
@@ -49,6 +59,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <main id="main">{children}</main>
           <Footer />
           <PageEffects />
+          <Motion />
         </LightboxProvider>
       </body>
     </html>
